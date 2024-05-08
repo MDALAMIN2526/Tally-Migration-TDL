@@ -19,4 +19,4 @@
 if you are able to see *Loaded* message, so congratulations you done so far.
 
 > for further steps you can follow Frappe App Repository.
-  https://github.com/laxmantandon/express_tally
+ https://github.com/MDALAMIN2526/Tally-Migration
