@@ -7,8 +7,8 @@
 	Export Header	: "Accept-Charset: utf-8"
 	Export Header	: "Authorization: " + "token " + @@AuthToken
 
-	Data Source: HTTP JSON: @@ERPNextHost + '/api/method/express_tally.receive_tally.customer'
-;	Data Source: HTTP JSON: @@ERPNextHost + '/api/method/express_tally.receive_tally.create_address'
+	Data Source: HTTP JSON: @@ERPNextHost + '/api/method/tally_migration.receive_tally.customer'
+;	Data Source: HTTP JSON: @@ERPNextHost + '/api/method/tally_migration.receive_tally.create_address'
 
 	RemoteRequest: SEND_Customer : UTF8
 	JSON Object Path: "message:1"
